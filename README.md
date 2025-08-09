@@ -191,6 +191,15 @@ def run_cross_validation(self, train_dataset):
 └── Convergence: Early stopping at 4-8 epochs per fold
 ```
 
+**Cross-Validation Performance:**
+```
+📈 CV Performance: 96.16 ± 1.45% (Pneumonia Recall), 91.62 ± 0.83% (F1)
+📊 Individual Folds (Best Trial #7):
+   Fold 1: 98.16% Pneumonia Recall, 92.48% F1 (8 epochs, Early Stop)
+   Fold 2: 94.77% Pneumonia Recall, 91.87% F1 (8 epochs, Early Stop)
+   Fold 3: 95.55% Pneumonia Recall, 90.51% F1 (4 epochs, Early Stop)
+```
+
 **Final CNN Test Performance:**
 ```
 🎯 Test Accuracy: 86.06%
