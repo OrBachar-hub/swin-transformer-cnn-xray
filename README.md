@@ -40,22 +40,6 @@ The CNN approach implements a highly configurable architecture that can adapt to
 - **Regularization**: Dropout (0.2-0.4) and weight decay optimization
 - **Parameters**: 100K-35M (architecture-dependent)
 
-**🔍 CNN Architecture Search Results:**
-```python
-Best CNN Configuration (3-Fold CV):
-├── Depth: 6 blocks
-├── Base Channels: 48
-├── Channel Multiplier: 1.96x
-├── Kernel Size: 5x5
-├── Activation: Swish
-├── Pooling: Max (2x2)
-├── Global Pooling: Adaptive Max
-├── Batch Normalization: Disabled
-├── Dropout: 0.285
-├── Classifier: 512 hidden units
-└── Parameters: 33.86M
-```
-
 **Why CNN for Medical Imaging?**
 | Feature | Traditional CNN | FlexibleCNN Approach | Medical Advantage |
 |---------|-----------------|---------------------|-------------------|
